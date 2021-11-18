@@ -1,0 +1,36 @@
+@import 'vari';
+
+h1, h2, h3 {
+    margin: 15% 17%;
+}
+
+
+a {
+    
+    color: $textColorMain;
+}
+
+p {
+    text-align: left;
+}
+
+.words {
+    margin: 0 17% 0 5%;
+    padding-right: 5%;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    background: $gradient;
+    width: 50vw;
+    border-radius: 6%;
+}
+
+ul {
+    background: $gradient;
+    width: 50vw;
+}
+

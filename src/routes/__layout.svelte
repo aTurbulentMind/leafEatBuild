@@ -1,36 +1,45 @@
+<script>
+	import Nav from '$lib/Nav.svelte';
+</script>
+
 <div class="container">
-	<nav>
-		<ul>
-			<li>
-				<a href="/">Home</a>
-			</li>
-		</ul>
-	</nav>
+	<div class="logo"><img src="/src/assets/img/LogoTransparentDark.png" alt=""></div>
+
+	<Nav />
+
 	<slot />
+
+	
 </div>
 
-<style>
+<style lang="scss">
+	@import 'vari';
+	
+
 	* {
-		margin: 0;
-		padding: 0;
+		margin: -8px;
+		overflow-x: hidden;
 	}
 
 	.container {
-		max-width: 800px;
-		margin: 50px auto;
+		
+		color: $textColorMain;
+		background: rgb(11, 8, 14);
+		font-family: 'Amiko', sans-serif;
 	}
 
-	ul {
-		display: flex;
-		list-style: none;
+	.logo {
+		overflow-y:hidden;
+		margin-top: 5px;
+
+		img {
+		width: 80%;
+		height: 80%;
+		
 	}
-	li {
-		margin-right: 10px;
 	}
 
-	/*netlify stuff
-	npm i -D @sveltejs/adapter-netlify@next
-
-	to svelte.config.js > import adapter from '@sveltejs/adapter-netlify';
-	*/
+	
+	
+		
 </style>

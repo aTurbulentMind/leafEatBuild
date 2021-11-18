@@ -1,0 +1,109 @@
+@import 'vari';
+
+
+// description bar
+
+h3 {
+    text-align: center;
+}
+
+.catagory {
+    display: grid;
+    grid-template-columns: minmax(auto, 900px);
+    justify-content: center;
+    background-color: $backgroundSecond;
+    color: $textColorMain;
+    line-height: 1.7;
+    padding: 20px;
+    font-size: 3vw;
+}
+
+.nacho li{
+        font-size: 2.8vw;
+        list-style: none; 
+        padding:0 auto;
+        img {
+            width: 5%;
+        }   
+    }
+//menu tiles
+
+.responsive-example {
+    max-width: 1100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 14px;
+    
+}
+
+.responsive-item {
+    background-color:$backgroundSecond;
+    margin: 0 3%;
+    padding: 20px;
+    color: $textColorMain;
+    font-size: 0.77rem;
+    line-height: 1.7;
+    overflow: auto;
+    border-radius: 1%;
+    transition: transform .2s;
+
+    &:hover {
+        
+        box-shadow:5px 0px 25px $backgroundSecond;
+        transform: scale(1.2);
+        margin: 0 20px;
+        z-index: 3;
+    }
+}
+
+//pizza tiles
+
+.pizza-example {
+    max-width: 1100px;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+}
+
+.pizza-item {
+    background-color:$backgroundSecond;
+    padding: 15px;
+    color: $textColorMain;
+    font-size: 0.85rem;
+    line-height: 1.25;
+    overflow: auto;
+    border-radius: 1%;
+    transition: transform .2s;
+
+    p {
+       text-align: center;
+    }
+    }
+
+    .description {
+        font-size: 2.7vw;
+    }
+
+//warning bar
+
+.disclaimer {
+    display: grid;
+    grid-template-columns: minmax(auto, 900px);
+    justify-content: center;
+    background-color: $backgroundSecond;
+    color: $textColorMain;
+    line-height: 1;
+    padding: 0 10px;
+    margin-top:25px;
+    font-size: 2vw;
+    transition: transform .2s;
+
+    &:hover {
+
+        box-shadow: 5px 0px 25px $backgroundSecond;
+        transform: scale(1.2);
+        margin: 20px 100px; 
+    }
+};

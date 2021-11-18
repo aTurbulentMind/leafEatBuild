@@ -1,0 +1,23 @@
+//colors
+
+$textColorMain: rgb(255, 255, 244);
+$backgroundMain:rgb(11, 8, 14);
+$backgroundSecond:#235c23ad;
+$clover:#39993A;
+$gradient:linear-gradient(90deg, rgba(5, 14, 5, 1) 0%, rgba(19, 51, 19, 1) 35%, rgba(35, 92, 35, 1) 100%);
+
+
+//font stack
+$font-family: 'Amiko',sans-serif;
+
+
+// set txt color
+//@function set-text-color($color) {
+//    @if(lightness($color) > 70) {
+//        @return #333;
+//    }
+//
+//    @else {
+//        @return $textColorMain;
+//    }
+//}
