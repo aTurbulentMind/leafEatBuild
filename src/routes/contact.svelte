@@ -3,7 +3,7 @@
 <h1>Contact</h1>
 <p class="words">random words about contacting us. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere blanditiis odio dicta?</p>
 
-<h2 style="background: transparent;"><a href="/" > <img src="/src/assets/svg/fbSvgpost.svg" alt=""> Facebook</a></h2>
+<h2 style="background: transparent;"><a href="/https://www.facebook.com/CloverleafSportsBarandGrill" > <img src="/src/assets/svg/fbSvgpost.svg" alt=""> Facebook</a></h2>
 <h2 style="background: transparent;"><a href="/" > <a href="tel:+13603778516">(360) 377-8516</a> Call now! </h2>
 </div>
 

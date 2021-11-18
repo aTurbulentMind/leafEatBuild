@@ -34,7 +34,7 @@ We genuinely care about our customers and go above and beyond to provide the bes
 
 <p class="words" style="padding-bottom: 30px;">
      We are always looking to improve ourselves. If you have ideas how we can make it a better experience for you or comments about our service, we’d love to hear from you. <br> <br> 
-     <a href="/" style="margin-left: 15%;"> Facebook</a>
+     <a href="/https://www.facebook.com/CloverleafSportsBarandGrill" style="margin-left: 15%;"> Facebook</a>
 </p>
 
 </div>
