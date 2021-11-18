@@ -3,7 +3,7 @@
 </script>
 
 <div class="container">
-	<div class="logo"><img src="/src/assets/img/LogoTransparentDark.png" alt=""></div>
+	<div class="logo"><img src="/src/assets/img/LogoTransparentDark2.png" alt=""></div>
 
 	<Nav />
 
